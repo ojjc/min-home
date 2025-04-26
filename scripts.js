@@ -62,7 +62,24 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"Pr6SHDAQt3Y3kEgM","label":"media","bookmarks":[{"id":"8HJCJf4SGLZxzL2q","label":"yt","url":"https://www.youtube.com/"},{"id":"uHUXpt35zZf70oLa","label":"twitch","url":"https://www.twitch.tv/"},{"id":"8Ii2KjzRLWKW8fns","label":"twitter","url":"https://x.com/home"}]},{"id":"QqY1DdHaFbaksvUK","label":"prod","bookmarks":[{"id":"C7JLc2oMvdjAUj2d","label":"reddit","url":"https://reddit.com"},{"id":"qXDwraIjhSo69gMj","label":"pin","url":"https://www.pinterest.com/"},{"id":"LYKG4SMemObGlUyc","label":"lastfm","url":"https://last.fm"},{"id":"posMpqfOJ0oterZg","label":"rym","url":"https://rateyourmusic.com/"}]},{"id":"NhPugLvse3jQJpwk","label":"sbub","bookmarks":[{"id":"wEDY7OAW3E7G8HFt","label":"brightspace","url":"https://mycourses.stonybrook.edu/d2l/login"},{"id":"FDiXLnYtnFg1QiZW","label":"solar","url":"https://prod.ps.stonybrook.edu/psp/csprods/?cmd=login"}]},{"id":"kNLWW0WHtRtKCTlj","label":"shoppy","bookmarks":[{"id":"wVMgkDbCk1EjHJ8G","label":"amazon","url":"https://www.amazon.com/"},{"id":"uGkrUKAgTqA3zaWz","label":"ebay","url":"https://www.ebay.com/"}]}]
+const bookmarks = [ {"id":"Pr6SHDAQt3Y3kEgM","label":"media","bookmarks":
+                      [ {"id":"8HJCJf4SGLZxzL2q","label":"yt","url":"https://www.youtube.com/"},  
+                        {"id":"uHUXpt35zZf70oLa","label":"twitch","url":"https://www.twitch.tv/"},
+                        {"id":"8Ii2KjzRLWKW8fns","label":"twitter","url":"https://x.com/home"}]},
+
+                    {"id":"QqY1DdHaFbaksvUK","label":"prod","bookmarks":
+                      [ {"id":"C7JLc2oMvdjAUj2d","label":"reddit","url":"https://reddit.com"},
+                        {"id":"qXDwraIjhSo69gMj","label":"pin","url":"https://www.pinterest.com/"},]},
+                        
+                    {"id":"kNLWW0WHtRtKCTlj","label":"shoppy","bookmarks":
+                      [ {"id":"wVMgkDbCk1EjHJ8G","label":"amazon","url":"https://www.amazon.com/"},
+                        {"id":"uGkrUKAgTqA3zaWz","label":"ebay","url":"https://www.ebay.com/"}]},
+
+                    {"id":"NhPugLvse3jQJpwk","label":"misc","bookmarks":
+                      [ {"id":"LYKG4SMemObGlUyc","label":"lastfm","url":"https://www.last.fm/user/ojjc"},
+                        {"id":"posMpqfOJ0oterZg","label":"rym","url":"https://rateyourmusic.com/"}]},
+                      
+                    ]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
